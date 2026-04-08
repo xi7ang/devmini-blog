@@ -7,6 +7,8 @@ tags: ["AI知识", "AI教程", "提示词", "课程资源", "学习资料"]
 categories: ["资源推荐"]
 description: "想系统获取 AI 知识资料、提示词、教程和课程资源，却总被碎片化内容打断？这篇文章介绍如何找到更适合长期学习的 AI 资料下载网站，并推荐 pan.devmini.space/AIknowledge 作为高效入口。"
 slug: "ai-knowledge-resource-sites-guide"
+images: ["og/ai-knowledge-resource-sites-guide.png"]
+thumbnail: "og/ai-knowledge-resource-sites-guide.png"
 ---
 
 过去很多人学 AI，最大的问题不是资料太少，而是资料太碎。你今天在社交平台看一个提示词技巧，明天收藏一个模型测评，后天再买一节入门课，最后发现自己手里有一堆片段，却没有形成真正可复用的知识结构。

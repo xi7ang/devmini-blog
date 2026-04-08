@@ -2,6 +2,8 @@
 title: "书籍资料专题：电子书资源、学习资料与精品书单导航"
 description: "系统整理电子书资源、学习资料、阅读方法与精品书单入口，帮助你从 pan.devmini.space/book/ 出发，建立更稳定的阅读与知识输入系统。"
 slug: "book-resources"
+images: ["og/book-resources.png"]
+thumbnail: "og/book-resources.png"
 ---
 
 如果你找书、囤书、看书已经很多年了，你应该早就发现一个事实：**真正浪费时间的不是没有资源，而是资源没有被组织起来**。

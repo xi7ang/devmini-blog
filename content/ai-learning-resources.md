@@ -2,6 +2,8 @@
 title: "AI学习资源专题：提示词、教程、课程与工作流资料导航"
 description: "围绕 AI 学习资源、提示词教程、课程资料与工作流方法，整理 DevMini 博客和 pan.devmini.space/AIknowledge/ 的核心入口。"
 slug: "ai-learning-resources"
+images: ["og/ai-learning-resources.png"]
+thumbnail: "og/ai-learning-resources.png"
 ---
 
 AI 领域最大的坑，不是资料太少，而是资料太碎。你今天学提示词，明天看工作流，后天收藏几个工具榜单，最后手里看起来什么都有，脑子里却没有结构。
