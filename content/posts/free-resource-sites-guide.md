@@ -158,4 +158,11 @@ slug: "free-resource-sites-guide"
 
 如果你正在找一个更省时间的免费资源网站，我建议你直接从 [`pan.devmini.space`](https://pan.devmini.space/) 开始；如果你已经明确想找书籍资料、AI 教程或工具资源，那么就分别进入 [`书籍资料栏目`](https://pan.devmini.space/book/)、[`AI知识栏目`](https://pan.devmini.space/AIknowledge/) 和 [`工具资源栏目`](https://pan.devmini.space/tools/)。
 
+如果你不想只停留在“总入口”，继续看下面这些主题页：
+
+- [`书籍资料专题`](/blog/book-resources/)
+- [`AI学习资源专题`](/blog/ai-learning-resources/)
+- [`工具资源专题`](/blog/tools-resources/)
+- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/blog/posts/tools-resource-sites-guide/)
+
 这才是对时间负责的找资源方式。

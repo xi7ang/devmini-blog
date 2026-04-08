@@ -133,4 +133,10 @@ slug: "ebook-resource-sites-guide"
 
 如果你正在找更靠谱的电子书资料入口，我建议优先收藏 [`pan.devmini.space/book/`](https://pan.devmini.space/book/)。它适合做书籍资料主入口；如果你还需要配套的 AI 学习资源和工具资源，再继续访问 [`pan.devmini.space/AIknowledge/`](https://pan.devmini.space/AIknowledge/) 和 [`pan.devmini.space/tools/`](https://pan.devmini.space/tools/)。
 
+如果你想把这类内容系统化阅读，而不是每次重新搜索，继续看：
+
+- [`书籍资料专题：电子书资源、学习资料与精品书单导航`](/blog/book-resources/)
+- [`免费学习网站推荐：如何找到靠谱的在线学习资源平台`](/blog/posts/free-learning-sites-guide/)
+- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/blog/posts/free-resources-navigation-guide/)
+
 别再把时间浪费在垃圾采集页上。先找对入口，再开始阅读，这才是高效。
