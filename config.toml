@@ -1,0 +1,70 @@
+baseURL = "https://devmini.space/blog/"
+languageCode = "zh-cn"
+title = "DevMini 博客"
+theme = "Mainroad"
+summaryLength = 120
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[Author]
+  name = "白王_"
+  bio = "记录资源、工具、学习资料与实用网站。"
+
+[Params]
+  description = "DevMini 博客：分享免费资源网站、电子书资料、AI学习资源与高效工具，重点整理 pan.devmini.space 相关优质内容。"
+  opengraph = true
+  twitter_cards = true
+  readmore = true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"]
+  mainSections = ["posts"]
+  toc = true
+  customCSS = ["css/custom.css"]
+
+[Params.logo]
+  title = "DevMini 博客"
+  subtitle = "资源、工具、学习与增长"
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 6
+  tags_counter = true
+
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "book"
+  name = "书籍资料"
+  url = "https://pan.devmini.space/book/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "ai"
+  name = "AI知识"
+  url = "https://pan.devmini.space/AIknowledge/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "tools"
+  name = "工具资源"
+  url = "https://pan.devmini.space/tools/"
+  weight = 4
