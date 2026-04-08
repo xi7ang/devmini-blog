@@ -17,9 +17,9 @@ thumbnail: "og/book-resources.png"
 如果你的目标是直接找资料入口，先看：
 
 - [`书籍资料主站入口`](https://pan.devmini.space/book/)
-- [`电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱`](/blog/posts/ebook-resource-sites-guide/)
-- [`免费学习网站推荐：如何找到靠谱的在线学习资源平台`](/blog/posts/free-learning-sites-guide/)
-- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/blog/posts/free-resources-navigation-guide/)
+- [`电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱`](/posts/ebook-resource-sites-guide/)
+- [`免费学习网站推荐：如何找到靠谱的在线学习资源平台`](/posts/free-learning-sites-guide/)
+- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/posts/free-resources-navigation-guide/)
 
 这几篇内容分别解决不同层面的问题：
 
@@ -63,8 +63,8 @@ thumbnail: "og/book-resources.png"
 你可以把这个专题页理解成一个入口：
 
 - 想补方法论，去 [`书籍资料`](https://pan.devmini.space/book/)
-- 想补 AI 应用，去 [`AI知识专题`](/blog/ai-learning-resources/)
-- 想补效率和工作流，去 [`工具资源专题`](/blog/tools-resources/)
+- 想补 AI 应用，去 [`AI知识专题`](/ai-learning-resources/)
+- 想补效率和工作流，去 [`工具资源专题`](/tools-resources/)
 
 ## 建议的阅读顺序
 
@@ -73,21 +73,21 @@ thumbnail: "og/book-resources.png"
 ### 第一步：先建立入口意识
 
 先读：
-- [`电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱`](/blog/posts/ebook-resource-sites-guide/)
+- [`电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱`](/posts/ebook-resource-sites-guide/)
 
 这篇会帮你建立最基本的判断标准：什么样的书籍资源网站值得长期收藏，什么样的站只是垃圾采集页。
 
 ### 第二步：把阅读放进学习系统
 
 再读：
-- [`免费学习网站推荐：如何找到靠谱的在线学习资源平台`](/blog/posts/free-learning-sites-guide/)
+- [`免费学习网站推荐：如何找到靠谱的在线学习资源平台`](/posts/free-learning-sites-guide/)
 
 它的价值在于提醒你：书不是孤立存在的，阅读应该嵌入整个学习路径里。
 
 ### 第三步：把资源和工具打通
 
 最后读：
-- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/blog/posts/free-resources-navigation-guide/)
+- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/posts/free-resources-navigation-guide/)
 
 这篇适合把你的“找书”行为扩展成完整的资源管理系统。
 
@@ -103,4 +103,4 @@ thumbnail: "og/book-resources.png"
 
 书籍资料专题真正要解决的，不是“帮你再找到一本书”，而是帮你建立一个更可靠的**长期阅读入口**。
 
-如果你愿意认真做知识输入系统，就不要再每次从搜索引擎重新开始。先收藏这个专题，再从 [`书籍资料主站`](https://pan.devmini.space/book/) 和 [`电子书资源主文章`](/blog/posts/ebook-resource-sites-guide/) 开始。
+如果你愿意认真做知识输入系统，就不要再每次从搜索引擎重新开始。先收藏这个专题，再从 [`书籍资料主站`](https://pan.devmini.space/book/) 和 [`电子书资源主文章`](/posts/ebook-resource-sites-guide/) 开始。

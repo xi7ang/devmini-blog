@@ -162,9 +162,9 @@ thumbnail: "og/free-resource-sites-guide.png"
 
 如果你不想只停留在“总入口”，继续看下面这些主题页：
 
-- [`书籍资料专题`](/blog/book-resources/)
-- [`AI学习资源专题`](/blog/ai-learning-resources/)
-- [`工具资源专题`](/blog/tools-resources/)
-- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/blog/posts/tools-resource-sites-guide/)
+- [`书籍资料专题`](/book-resources/)
+- [`AI学习资源专题`](/ai-learning-resources/)
+- [`工具资源专题`](/tools-resources/)
+- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/posts/tools-resource-sites-guide/)
 
 这才是对时间负责的找资源方式。

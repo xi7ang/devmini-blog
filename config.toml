@@ -1,4 +1,4 @@
-baseURL = "https://devmini.space/blog/"
+baseURL = "https://devmini.space/"
 languageCode = "zh-cn"
 title = "DevMini 博客"
 theme = "Mainroad"

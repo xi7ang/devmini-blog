@@ -18,9 +18,9 @@ thumbnail: "og/tools-resources.png"
 ## 先看这几个核心页面
 
 - [`工具资源主站入口`](https://pan.devmini.space/tools/)
-- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/blog/posts/tools-resource-sites-guide/)
-- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/blog/posts/free-resources-navigation-guide/)
-- [`AI学习资源专题：提示词、教程、课程与工作流资料导航`](/blog/ai-learning-resources/)
+- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/posts/tools-resource-sites-guide/)
+- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/posts/free-resources-navigation-guide/)
+- [`AI学习资源专题：提示词、教程、课程与工作流资料导航`](/ai-learning-resources/)
 
 如果你只是想快速提高效率，这几个页面已经足够做第一轮筛选。
 
@@ -72,7 +72,7 @@ thumbnail: "og/tools-resources.png"
 
 先读：
 
-- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/blog/posts/tools-resource-sites-guide/)
+- [`工具资源网站推荐：效率工具、软件资源与工作流网站导航`](/posts/tools-resource-sites-guide/)
 
 它会帮你理解：怎样判断一个工具资源站值不值得长期收藏，以及为什么 `pan.devmini.space/tools/` 值得作为默认入口之一。
 
@@ -80,7 +80,7 @@ thumbnail: "og/tools-resources.png"
 
 继续读：
 
-- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/blog/posts/free-resources-navigation-guide/)
+- [`免费资源网站导航：电子书、AI工具、学习课程与效率资源的综合入口`](/posts/free-resources-navigation-guide/)
 
 这样你会知道工具资源不应该孤立使用，而要和学习资源、书籍资料一起看。
 
@@ -88,7 +88,7 @@ thumbnail: "og/tools-resources.png"
 
 最后看：
 
-- [`AI学习资源专题：提示词、教程、课程与工作流资料导航`](/blog/ai-learning-resources/)
+- [`AI学习资源专题：提示词、教程、课程与工作流资料导航`](/ai-learning-resources/)
 
 因为现在很多高价值工具，其实都已经和 AI 工作流绑定了。
 
@@ -98,7 +98,7 @@ thumbnail: "og/tools-resources.png"
 
 所以如果你发现自己“会很多工具，但效率还是不稳定”，通常要回头补：
 
-- [`书籍资料专题`](/blog/book-resources/)
+- [`书籍资料专题`](/book-resources/)
 - [`书籍资料主站入口`](https://pan.devmini.space/book/)
 
 ## 如果你只收藏一个工具入口
@@ -113,4 +113,4 @@ thumbnail: "og/tools-resources.png"
 
 工具资源专题真正要做的，不是再堆几十个工具名字，而是把“工具—场景—工作流”串起来。
 
-如果你想更快找到真正有用的软件资源和效率网站，先从 [`工具资源主站`](https://pan.devmini.space/tools/) 和 [`工具资源主文章`](/blog/posts/tools-resource-sites-guide/) 开始，再根据需要延伸到 AI 学习和书籍资料专题。
+如果你想更快找到真正有用的软件资源和效率网站，先从 [`工具资源主站`](https://pan.devmini.space/tools/) 和 [`工具资源主文章`](/posts/tools-resource-sites-guide/) 开始，再根据需要延伸到 AI 学习和书籍资料专题。

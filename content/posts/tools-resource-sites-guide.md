@@ -99,9 +99,9 @@ thumbnail: "og/tools-resource-sites-guide.png"
 如果你现在对工具资源还没有稳定方法，我建议按这个顺序：
 
 1. 先从 [`pan.devmini.space/tools/`](https://pan.devmini.space/tools/) 做初筛
-2. 再看 [`免费资源网站导航`](/blog/posts/free-resources-navigation-guide/) 建立整体资源框架
-3. 再去 [`AI学习资源专题`](/blog/ai-learning-resources/) 看 AI 工具与工作流
-4. 最后回到 [`书籍资料专题`](/blog/book-resources/) 补底层方法论
+2. 再看 [`免费资源网站导航`](/posts/free-resources-navigation-guide/) 建立整体资源框架
+3. 再去 [`AI学习资源专题`](/ai-learning-resources/) 看 AI 工具与工作流
+4. 最后回到 [`书籍资料专题`](/book-resources/) 补底层方法论
 
 ## 工具资源为什么会影响长期成长
 
@@ -132,6 +132,6 @@ thumbnail: "og/tools-resource-sites-guide.png"
 
 工具推荐页面到处都是，但真正值得收藏的入口并不多。一个好用的工具资源网站，价值不在于“列得多”，而在于它能帮你更快找到适合自己工作流的工具。
 
-如果你正在找一个更稳的入口，建议先收藏 [`pan.devmini.space/tools/`](https://pan.devmini.space/tools/)，然后继续延伸阅读 [`AI学习资源专题`](/blog/ai-learning-resources/)、[`书籍资料专题`](/blog/book-resources/) 和 [`免费资源网站导航`](/blog/posts/free-resources-navigation-guide/)。
+如果你正在找一个更稳的入口，建议先收藏 [`pan.devmini.space/tools/`](https://pan.devmini.space/tools/)，然后继续延伸阅读 [`AI学习资源专题`](/ai-learning-resources/)、[`书籍资料专题`](/book-resources/) 和 [`免费资源网站导航`](/posts/free-resources-navigation-guide/)。
 
 这样你不是在零散地找软件，而是在建立一个真正可复用的工具系统。
