@@ -15,7 +15,7 @@ hasCJKLanguage = true
   tag = "tags"
   category = "categories"
 
-[Author]
+[Params.author]
   name = "白王_"
   bio = "记录资源、工具、学习资料与实用网站。"
 
@@ -29,6 +29,7 @@ hasCJKLanguage = true
   post_meta = ["date", "categories"]
   mainSections = ["posts"]
   toc = true
+  googleFontsLink = ""
   customCSS = ["css/custom.css"]
 
 [Params.logo]

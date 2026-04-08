@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: "关于 DevMini 博客"
+title: "关于 DevMini 博客"
+description: "了解 DevMini 博客：一个聚焦免费资源网站、电子书资料、AI学习资源与工具推荐的内容站点。"
 slug: "about"
 ---
 ## 关于 DevMini 博客
