@@ -57,10 +57,25 @@
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}
 </head>
-<body class="body">
-	<div class="container container--outer">
+{{- $pageKind := cond .IsHome "page-home" (cond .IsPage "page-single" "page-list") -}}
+{{- $contentKind := "kind-generic" -}}
+{{- if .IsHome -}}
+	{{- $contentKind = "kind-home" -}}
+{{- else if and .IsPage (eq .Section "posts") -}}
+	{{- $contentKind = "kind-post" -}}
+{{- else if .IsPage -}}
+	{{- $contentKind = "kind-feature" -}}
+{{- else -}}
+	{{- $contentKind = "kind-list" -}}
+{{- end -}}
+{{- $sectionClass := "section-site" -}}
+{{- with .Section }}{{ $sectionClass = printf "section-%s" . }}{{ end -}}
+{{- $slugClass := "" -}}
+{{- with .File }}{{ $slugClass = printf "slug-%s" .TranslationBaseName }}{{ end -}}
+<body class="body {{ $pageKind }} {{ $contentKind }} {{ $sectionClass }} {{ $slugClass }}">
+	<div class="container container--outer site-shell">
 		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-		<div class="wrapper flex">
+		<div class="wrapper flex site-main">
 			<div class="primary">
 			{{ block "main" . }}
 				{{ with .Content }}
