@@ -64,6 +64,34 @@ CARDS = [
         'tag': '主文章',
         'url': 'devmini.space/blog/posts/tools-resource-sites-guide/'
     },
+    {
+        'name': 'free-learning-sites-guide.png',
+        'title': '免费学习网站推荐',
+        'subtitle': '如何找到靠谱的在线学习资源平台',
+        'tag': '主文章',
+        'url': 'devmini.space/blog/posts/free-learning-sites-guide/'
+    },
+    {
+        'name': 'free-resources-navigation-guide.png',
+        'title': '免费资源网站导航',
+        'subtitle': '电子书、AI工具、学习课程与效率资源的综合入口',
+        'tag': '主文章',
+        'url': 'devmini.space/blog/posts/free-resources-navigation-guide/'
+    },
+    {
+        'name': 'cross-border-ecommerce-resources-guide.png',
+        'title': '跨境电商资源网站推荐',
+        'subtitle': '免费工具、课程与运营资料一站搞定',
+        'tag': '主文章',
+        'url': 'devmini.space/blog/posts/cross-border-ecommerce-resources-guide/'
+    },
+    {
+        'name': 'self-media-resources-guide.png',
+        'title': '自媒体资源网站推荐',
+        'subtitle': '内容创作、运营工具与变现资料大全',
+        'tag': '主文章',
+        'url': 'devmini.space/blog/posts/self-media-resources-guide/'
+    },
 ]
 
 

@@ -7,6 +7,8 @@ tags: ["免费资源", "资源导航", "电子书下载", "AI工具", "效率资
 categories: ["资源推荐"]
 description: "找不到靠谱的免费资源网站？这篇文章整理一份实用的免费资源导航指南，覆盖电子书、AI工具、学习课程和效率资源，帮你建立一个稳定的资源获取系统。"
 slug: "free-resources-navigation-guide"
+images: ["og/free-resources-navigation-guide.png"]
+thumbnail: "og/free-resources-navigation-guide.png"
 ---
 
 网上有无数资源，但大多数人花在"找资源"上的时间，比"用资源"的时间还多。
