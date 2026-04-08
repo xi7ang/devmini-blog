@@ -68,3 +68,20 @@ hasCJKLanguage = true
   name = "工具资源"
   url = "https://pan.devmini.space/tools/"
   weight = 4
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于我们"
+  url = "/about/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "disclaimer"
+  name = "免责声明"
+  url = "/disclaimer/"
+  weight = 6
+
+[sitemap]
+  filename = "sitemap.xml"
+  changefreq = "weekly"
+  priority = 0.5
