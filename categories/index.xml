@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DevMini 博客</title>
+    <link>https://devmini.space/categories/</link>
+    <description>Recent content in Categories on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>资源推荐</title>
+      <link>https://devmini.space/categories/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/categories/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
