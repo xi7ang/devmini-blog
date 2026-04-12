@@ -15,7 +15,7 @@
     "inLanguage" (.Site.LanguageCode | default "zh-cn")
     "publisher" $publisher
   -}}
-<script type="application/ld+json">{{ $website | jsonify }}</script>
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 {{- else if eq .Section "posts" -}}
   {{- $article := dict
     "@context" "https://schema.org"
@@ -30,7 +30,7 @@
     "inLanguage" (.Site.LanguageCode | default "zh-cn")
     "url" .Permalink
   -}}
-<script type="application/ld+json">{{ $article | jsonify }}</script>
+<script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
 {{- else -}}
   {{- $page := dict
     "@context" "https://schema.org"
@@ -41,7 +41,7 @@
     "inLanguage" (.Site.LanguageCode | default "zh-cn")
     "publisher" $publisher
   -}}
-<script type="application/ld+json">{{ $page | jsonify }}</script>
+<script type="application/ld+json">{{ $page | jsonify | safeJS }}</script>
 {{- end -}}
 
 {{- $crumbItems := slice (dict "@type" "ListItem" "position" 1 "name" "首页" "item" .Site.BaseURL) -}}
@@ -58,4 +58,4 @@
   "@type" "BreadcrumbList"
   "itemListElement" $crumbItems
 -}}
-<script type="application/ld+json">{{ $breadcrumb | jsonify }}</script>
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
