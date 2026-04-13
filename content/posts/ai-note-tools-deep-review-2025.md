@@ -7,8 +7,8 @@ tags: ["AI笔记", "效率工具", "工作流", "工具资源"]
 categories: ["资源推荐"]
 description: "Notion AI、ChatGPT、思源笔记、Obsidian……2025年AI笔记工具扎堆上线，我花了整整两周深度实测，从响应速度、隐私保护、知识库检索、写作体验、价格五个维度给你真实答案。"
 slug: "ai-note-tools-deep-review-2025"
-images: ["og/ai-note-tools-deep-review-2025.png"]
-thumbnail: "og/ai-note-tools-deep-review-2025.png"
+images: ["og/ai-note-tools-deep-review-2025-v2.png"]
+thumbnail: "og/ai-note-tools-deep-review-2025-v2.png"
 ---
 
 2025 年 AI 笔记工具彻底爆发。Notion AI 升级了好几轮，ChatGPT 成了很多人的"第二大脑"，思源笔记和 Obsidian 都在疯狂卷 AI 功能，Heptabase 这类视觉化工具也在抢占垂直市场。
