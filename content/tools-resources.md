@@ -1,6 +1,6 @@
 ---
 title: "工具资源专题：效率工具、软件网站与工作流导航"
-description: "围绕效率工具、软件资源与工作流方法，整理 DevMini 博客与 pan.devmini.space/tools/ 的核心入口，帮助你更快找到真正有用的工具。"
+description: "DevMini 工具资源专题，精选效率工具、软件网站与工作流方法，涵盖在线工具、浏览器插件、Mac/Windows 实用软件与 AI 辅助工具推荐，帮助你找到真正提升效率的利器。"
 slug: "tools-resources"
 images: ["og/tools-resources.png"]
 thumbnail: "og/tools-resources.png"

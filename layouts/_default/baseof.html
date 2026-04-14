@@ -1,35 +1,23 @@
 <!DOCTYPE html>
-<html class="no-js" lang="{{ .Site.LanguageCode | default `zh-cn` }}">
+<html class="no-js" lang="{{ .Site.Language.Lang }}">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{- $pageTitle := .Title | default .Site.Title -}}
-	{{- $siteTitle := .Site.Title -}}
-	{{- if .IsHome -}}
-	<title>{{ $pageTitle }}</title>
-	{{- else -}}
-	<title>{{ $pageTitle }} | {{ $siteTitle }}</title>
-	{{- end }}
+	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }}{{ if and .Data.Term .Data.Plural }} - {{ .Data.Plural | singularize | humanize }}{{ end }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	{{- $metaDescription := "" -}}
-	{{- if .IsHome -}}
-		{{- $metaDescription = .Params.description | default .Site.Params.description -}}
-	{{- else -}}
-		{{- $metaDescription = .Params.description | default (.Summary | plainify) | default .Site.Params.description -}}
-	{{- end -}}
-	<meta name="description" content="{{ $metaDescription }}">
-	<meta name="robots" content="index, follow, max-image-preview:large">
-	<link rel="canonical" href="{{ .Permalink }}">
+	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if and .Data.Term (eq .Data.Plural "tags") }}{{ $term := .Data.Term }}{{ $count := len (where (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) ".Params.tags" "intersect" (slice $term)) }}{{ $term }}标签页：DevMini 博客收录 {{ $count }} 篇标记为「{{ $term }}」的文章与资源导航，涵盖工具推荐与实用网站，助你高效工作学习。{{ else if and .Data.Term (eq .Data.Plural "categories") }}{{ $term := .Data.Term }}{{ $term }}分类页：DevMini 博客收录所有归类为「{{ $term }}」的文章与资源导航，持续更新中，欢迎阅读。{{ else }}{{ .Params.Description | default .Site.Params.description }}{{ end }}">
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
+	{{- end }}
+	{{- if .Site.Params.schema }}
+		{{ template "_internal/schema.html" . }}
 	{{- end }}
 	{{- if .Site.Params.twitter_cards }}
 		{{ template "_internal/twitter_cards.html" . }}
 	{{- end }}
-	{{- partial "seo_schema.html" . }}
 
-	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "" }}
-	{{- if and $googleFontsLink (hasPrefix $googleFontsLink "https://fonts.googleapis.com/") }}
+	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" }}
+	{{- if hasPrefix $googleFontsLink "https://fonts.googleapis.com/" }}
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -57,25 +45,10 @@
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}
 </head>
-{{- $pageKind := cond .IsHome "page-home" (cond .IsPage "page-single" "page-list") -}}
-{{- $contentKind := "kind-generic" -}}
-{{- if .IsHome -}}
-	{{- $contentKind = "kind-home" -}}
-{{- else if and .IsPage (eq .Section "posts") -}}
-	{{- $contentKind = "kind-post" -}}
-{{- else if .IsPage -}}
-	{{- $contentKind = "kind-feature" -}}
-{{- else -}}
-	{{- $contentKind = "kind-list" -}}
-{{- end -}}
-{{- $sectionClass := "section-site" -}}
-{{- with .Section }}{{ $sectionClass = printf "section-%s" . }}{{ end -}}
-{{- $slugClass := "" -}}
-{{- with .File }}{{ $slugClass = printf "slug-%s" .TranslationBaseName }}{{ end -}}
-<body class="body {{ $pageKind }} {{ $contentKind }} {{ $sectionClass }} {{ $slugClass }}">
-	<div class="container container--outer site-shell">
+<body class="body">
+	<div class="container container--outer">
 		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-		<div class="wrapper flex site-main">
+		<div class="wrapper flex">
 			<div class="primary">
 			{{ block "main" . }}
 				{{ with .Content }}

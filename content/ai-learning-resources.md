@@ -1,6 +1,6 @@
 ---
 title: "AI学习资源专题：提示词、教程、课程与工作流资料导航"
-description: "围绕 AI 学习资源、提示词教程、课程资料与工作流方法，整理 DevMini 博客和 pan.devmini.space/AIknowledge/ 的核心入口。"
+description: "DevMini AI 学习资源专题，整理提示词教程、免费 AI 课程、大模型使用指南与 AI 工作流资料，涵盖 ChatGPT、Claude、Midjourney 等主流 AI 工具的实战技巧与优质学习资源。"
 slug: "ai-learning-resources"
 images: ["og/ai-learning-resources.png"]
 thumbnail: "og/ai-learning-resources.png"

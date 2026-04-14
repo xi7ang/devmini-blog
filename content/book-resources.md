@@ -1,6 +1,6 @@
 ---
 title: "书籍资料专题：电子书资源、学习资料与精品书单导航"
-description: "系统整理电子书资源、学习资料、阅读方法与精品书单入口，帮助你从 pan.devmini.space/book/ 出发，建立更稳定的阅读与知识输入系统。"
+description: "DevMini 书籍资料专题，系统整理电子书资源、学习资料、阅读方法与精品书单入口，涵盖免费图书网站、Kindle 资源、PDF 下载与精品书单推荐，帮你建立稳定的阅读与知识输入系统。"
 slug: "book-resources"
 images: ["og/book-resources.png"]
 thumbnail: "og/book-resources.png"
