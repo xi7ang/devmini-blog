@@ -1,0 +1,23 @@
+# Hugo build/runtime
+.hugo_build.lock
+/public/
+/resources/
+
+# Dependencies / caches
+node_modules/
+.cache/
+dist/
+tmp/
+coverage/
+
+# Environment / logs
+.env
+.env.*
+*.log
+*.tmp
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
