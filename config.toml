@@ -15,9 +15,9 @@ hasCJKLanguage = true
   tag = "tags"
   category = "categories"
 
-[Params.author]
-  name = "白王_"
-  bio = "记录资源、工具、学习资料与实用网站。"
+[Author]
+  name = "Jian Mo"
+  bio = "Just start. Done is better than perfect."
 
 [Params]
   description = "DevMini 博客：分享免费资源网站、电子书资料、AI学习资源与高效工具，重点整理 pan.devmini.space 相关优质内容。"
