@@ -19,16 +19,15 @@
 	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" }}
 	{{- if hasPrefix $googleFontsLink "https://fonts.googleapis.com/" }}
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" {{ printf `href="%s"` $googleFontsLink | safeHTMLAttr }}>
+	<link rel="preload" as="style" href="{{ $googleFontsLink }}"
+	      onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="{{ $googleFontsLink }}"></noscript>
 	{{- end }}
 
 	{{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-	{{ range .Site.Params.customCSS -}}
-	<link rel="stylesheet" href="{{ . | relURL }}">
-	{{- end }}
+	<link rel="preload" as="style" href="{{ $style.RelPermalink }}" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}"></noscript>
+
 
 	{{- with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
