@@ -40,6 +40,36 @@ fi
 rsync -a --delete "$REPO_DIR/" "$DEPLOY_DIR/"
 log "deployed to $DEPLOY_DIR"
 
+# Convert article body images to WebP (PNG/JPG → WebP Q80)
+log "converting article body images to WebP..."
+python3 -c "
+from PIL import Image
+import os
+
+for root, dirs, files in os.walk('$DEPLOY_DIR'):
+    # Skip og/ (OG images already WebP)
+    if '/og/' in root or '/og' in root:
+        continue
+    for f in files:
+        if not (f.endswith('.png') or f.endswith('.jpg') or f.endswith('.jpeg')):
+            continue
+        path = os.path.join(root, f)
+        webp_path = path.rsplit('.', 1)[0] + '.webp'
+        # Skip if WebP already exists and is newer
+        if os.path.exists(webp_path):
+            if os.path.getmtime(webp_path) >= os.path.getmtime(path):
+                continue
+        try:
+            img = Image.open(path).convert('RGB')
+            img.save(webp_path, 'WEBP', quality=80, method=6)
+            orig_size = os.path.getsize(path)
+            webp_size = os.path.getsize(webp_path)
+            print(f'  {os.path.relpath(path, \"$DEPLOY_DIR\")}: {orig_size//1024}KB → {webp_size//1024}KB')
+        except Exception as e:
+            print(f'  skip {f}: {e}')
+"
+log "WebP conversion done"
+
 # Count pages
 PAGE_COUNT=$(find "$DEPLOY_DIR" -name 'index.html' | wc -l)
 log "site has $PAGE_COUNT pages"
