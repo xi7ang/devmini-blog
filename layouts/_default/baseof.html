@@ -9,6 +9,12 @@
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
 	{{- end }}
+	{{- /* Override og:image to WebP for articles with thumbnail */ -}}
+	{{- if and .Params.images (index .Params.images 0) }}
+		{{- $img := index .Params.images 0 -}}
+		<meta property="og:image" content="{{ $img | relURL }}.webp">
+		<meta name="twitter:image" content="{{ $img | relURL }}.webp">
+	{{- end }}
 	{{- if .Site.Params.schema }}
 		{{ template "_internal/schema.html" . }}
 	{{- end }}
