@@ -25,6 +25,7 @@ jobs:
 
       - name: Build Hugo site
         run: |
+          pip install Pillow --quiet
           python3 scripts/generate_og_images.py
           hugo --destination /tmp/hugo-public
 
