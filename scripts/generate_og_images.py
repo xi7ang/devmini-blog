@@ -32,6 +32,7 @@ CARDS = [
     {'name':'free-resources-navigation-guide.png','kind':'post','palette':'navigation','title':'免费资源网站导航','subtitle':'电子书、AI工具、学习课程与效率资源的综合入口','eyebrow':'主文章','url':'devmini.space/blog/posts/free-resources-navigation-guide/','section':'综合导航'},
     {'name':'cross-border-ecommerce-resources-guide.png','kind':'post','palette':'crossborder','title':'跨境电商资源网站推荐','subtitle':'免费工具、课程与运营资料一站搞定','eyebrow':'主文章','url':'devmini.space/blog/posts/cross-border-ecommerce-resources-guide/','section':'跨境电商'},
     {'name':'self-media-resources-guide.png','kind':'post','palette':'selfmedia','title':'自媒体资源网站推荐','subtitle':'内容创作、运营工具与变现资料大全','eyebrow':'主文章','url':'devmini.space/blog/posts/self-media-resources-guide/','section':'自媒体'},
+    {'name':'free-movie-documentary-download-sites.png','kind':'post','palette':'navigation','title':'免费电影/纪录片下载网站推荐','subtitle':'高清资源获取完整指南','eyebrow':'主文章','url':'devmini.space/blog/posts/free-movie-documentary-download-sites/','section':'影视资源'},
 ]
 
 def h(v):

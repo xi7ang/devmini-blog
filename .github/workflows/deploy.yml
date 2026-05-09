@@ -24,7 +24,9 @@ jobs:
           hugo-version: '0.124.0'
 
       - name: Build Hugo site
-        run: hugo --destination /tmp/hugo-public
+        run: |
+          python3 scripts/generate_og_images.py
+          hugo --destination /tmp/hugo-public
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
