@@ -3,9 +3,8 @@
 from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 
-OUT_DIR = Path('/root/.openclaw/workspace/devmini-blog/static/og')
-OUT_DIR.mkdir(parents=True, exist_ok=True)
-FONT_PATH = '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc'
+OUT_DIR = Path(__file__).parent.parent / 'static' / 'og'
+FONT_PATH = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'  # fallback: no CJK in runner
 W, H = 1280, 640
 
 PALETTES = {
