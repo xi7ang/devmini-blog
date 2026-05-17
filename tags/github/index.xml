@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on DevMini 博客</title>
+    <link>https://devmini.space/tags/github/</link>
+    <description>Recent content in GitHub on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Trending 本周精选（2026-05-04）：AI Coding Agent 生态爆发，Multi-Agent 框架井喷</title>
+      <link>https://devmini.space/posts/github-trending-weekly-2026-05-04/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/github-trending-weekly-2026-05-04/</guid>
+      <description>本周概览 本周 GitHub Trending 最显著的现象是 AI Coding Agent 生态的全面爆发——mattpocock/skills 一周狂揽 34,848 星，成为年度最速增长项目之一，直接把 Claude Code 的内部技能目录做成了开源合集。与此同时，Multi-Agent 框架赛道持续升温，TradingAgen</description>
+    </item>
+    <item>
+      <title>GitHub Trending 本周精选（2026-04-14）：AI Coding 工具大爆发，Karpathy 也下场了</title>
+      <link>https://devmini.space/posts/github-trending-weekly-2026-04-14/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/github-trending-weekly-2026-04-14/</guid>
+      <description>&lt;p&gt;本周 GitHub 最大的信号：&lt;strong&gt;AI Coding 工具彻底爆发&lt;/strong&gt;。一周之内多个重量级项目扎堆上榜，从 Claude Code 的技能文件到 AI 编程 Agent 平台，Karpathy 也下场发了自己的 CLAUDE.md。从这个星期开始，《GitHub Trending 本周精选》正式成为 DevMini 博客的周更栏目，每周一早上更新。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自由职业 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A/</link>
+    <description>Recent content in 自由职业 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序员兼职 vs 自由职业：2026年怎么选才不踩坑</title>
+      <link>https://devmini.space/posts/programmer-freelance-vs-solo-2026/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/programmer-freelance-vs-solo-2026/</guid>
+      <description>核心回答 程序员兼职和自由职业的核心区别在于：兼职是「按项目或工时出售时间」，自由职业是「按能力和作品出售结果」。如果你需要稳定收入和公司背书，选兼职；如果你有独立交付能力且追求时间自由，选自由职业。2026年主流接单平台已形成完整生态，两者</description>
+    </item>
+    <item>
+      <title>程序员免费接单平台汇总：2026版</title>
+      <link>https://devmini.space/posts/programmer-freelance-platforms-2026/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/programmer-freelance-platforms-2026/</guid>
+      <description>程序员的收入天花板不只是工资。靠技能接单，是很多人从「出卖时间」走向「出售成果」的第一步。但问题是：接单平台这么多，哪个真正适合你？ 有的人在 Upwork 三个月内从零冲到 Top Rated，有的人在国内众包平台接了半年还在被压价；有的人靠独立开发站着把钱挣了</description>
+    </item>
+  </channel>
+</rss>

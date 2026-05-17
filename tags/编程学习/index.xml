@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程学习 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 编程学习 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B站课程合集推荐：各学科系统学习路径大全（2026版）</title>
+      <link>https://devmini.space/posts/bilibili-course-collection-2026/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/bilibili-course-collection-2026/</guid>
+      <description>核心回答 B站（Bilibili）是目前国内最大的免费系统课程平台，覆盖编程开发、设计创意、语言学习、职业技能等主流学科。内容完全免费，无需订阅会员，搜索课程关键词即可找到完整系列课程。高效使用的关键在于：明确学习目标 → 筛选系统化UP主课程 →</description>
+    </item>
+  </channel>
+</rss>
