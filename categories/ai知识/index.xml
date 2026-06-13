@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI知识 on DevMini 博客</title>
+    <link>https://devmini.space/categories/ai%E7%9F%A5%E8%AF%86/</link>
+    <description>Recent content in AI知识 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/categories/ai%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub最火开源AI项目Top10逐个点评：2026年开发者必看清单</title>
+      <link>https://devmini.space/posts/github-top-open-source-ai-projects-2026/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/github-top-open-source-ai-projects-2026/</guid>
+      <description>GitHub上最火的开源AI项目有哪些？直接看这份Top10清单 2026年GitHub开源AI项目竞争格局已经非常清晰：大模型推理框架、AI Agent编排工具、向量数据库和多模态生成工具是当前Star增长最快的四大方向。如果你正在找GitH</description>
+    </item>
+  </channel>
+</rss>

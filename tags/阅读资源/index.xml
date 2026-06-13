@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阅读资源 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E9%98%85%E8%AF%BB%E8%B5%84%E6%BA%90/</link>
+    <description>Recent content in 阅读资源 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E9%98%85%E8%AF%BB%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱</title>
+      <link>https://devmini.space/posts/ebook-resource-sites-guide/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ebook-resource-sites-guide/</guid>
+      <description>很多人找电子书资源时，犯的第一个错误就是把“书多”当成“站好”。这完全是外行判断。真正值得长期收藏的电子书资源网站，不是把几千个标题往页面上一扔，而是能让你快速判断：这里有没有你要的书，这批资料是否值得花时间看，以及这个入口以后还值不值得反</description>
+    </item>
+  </channel>
+</rss>
