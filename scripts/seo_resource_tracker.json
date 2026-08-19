@@ -1,5 +1,5 @@
 {
-  "last_index": 27,
+  "last_index": 30,
   "covered_ids": [
     0,
     1,
@@ -23,7 +23,9 @@
     19,
     25,
     282,
-    283
+    283,
+    284,
+    287
   ],
   "total_resources": 1247
 }
