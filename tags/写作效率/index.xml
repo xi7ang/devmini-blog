@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>写作效率 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E5%86%99%E4%BD%9C%E6%95%88%E7%8E%87/</link>
+    <description>Recent content in 写作效率 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E5%86%99%E4%BD%9C%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI写作工具哪个适合你：场景对比选择指南</title>
+      <link>https://devmini.space/posts/ai-writing-tools-scenario-guide-2026/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-writing-tools-scenario-guide-2026/</guid>
+      <description>AI写作工具怎么选：按场景匹配最合适的那一个 选AI写作工具，不要只看排行榜。Claude擅长长文和逻辑，ChatGPT插件生态丰富，DeepSeek中文性价比高，Gemini多模态能力强——关键是你的使用场景。写学术论文选Claude，做营</description>
+    </item>
+  </channel>
+</rss>

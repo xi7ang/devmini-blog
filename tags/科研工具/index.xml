@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科研工具 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 科研工具 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%A7%91%E7%A0%94%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何免费获取国外学术论文：Sci-Hub替代方案与完整指南</title>
+      <link>https://devmini.space/posts/sci-hub-free-foreign-academic-papers-guide/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/sci-hub-free-foreign-academic-papers-guide/</guid>
+      <description>免费获取国外学术论文的主流方法 免费下载国外学术论文的核心途径有三种：Sci-Hub及其镜像站直接通过DOI获取全文、开放获取（OA）平台如PubMed Central和arXiv提供合法免费文献、机构代理与图书馆传递利用高校权限访问付费数据库</description>
+    </item>
+    <item>
+      <title>学术论文资源站推荐：CNKI/万方免费获取与替代方案大全</title>
+      <link>https://devmini.space/posts/academic-paper-resource-sites-guide/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/academic-paper-resource-sites-guide/</guid>
+      <description>学术论文获取难在哪里：先搞清楚游戏规则 CNKI（中国知网）是国内学术论文检索量最大的平台，收录期刊论文、学位论文、会议论文超过6000万篇，但它本质上是商业数据库，学生和科研人员直接访问需要付费或通过机构账号。万方数据和维普与CNKI类似，</description>
+    </item>
+  </channel>
+</rss>
