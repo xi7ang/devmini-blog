@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>课程资料 on DevMini 博客</title>
+    <link>https://devmini.space/categories/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/</link>
+    <description>Recent content in 课程资料 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/categories/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B站学习攻略：如何用B站系统学一门技能</title>
+      <link>https://devmini.space/posts/bilibili-systematic-learning-guide-2026/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/bilibili-systematic-learning-guide-2026/</guid>
+      <description>B站系统学习一门技能的完整方法 B站学习的核心方法是：先确定技能方向，再筛选高质量UP主的系统课程，配合笔记工具和学习计划，按章节顺序推进。很多人把B站当碎片化娱乐平台，但实际上B站拥有国内最完整的免费系统课程资源，从编程、设计到考研、考证，</description>
+    </item>
+  </channel>
+</rss>

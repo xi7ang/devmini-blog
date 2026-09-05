@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习资料 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</link>
+    <description>Recent content in 学习资料 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI知识资料下载网站推荐：提示词、教程、课程资源一站式获取</title>
+      <link>https://devmini.space/posts/ai-knowledge-resource-sites-guide/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-knowledge-resource-sites-guide/</guid>
+      <description>过去很多人学 AI，最大的问题不是资料太少，而是资料太碎。你今天在社交平台看一个提示词技巧，明天收藏一个模型测评，后天再买一节入门课，最后发现自己手里有一堆片段，却没有形成真正可复用的知识结构。 所以，真正高效的 AI 学习，第一步不是“学更多”，而</description>
+    </item>
+    <item>
+      <title>电子书资源网站推荐：书籍资料、学习资料哪里找更靠谱</title>
+      <link>https://devmini.space/posts/ebook-resource-sites-guide/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ebook-resource-sites-guide/</guid>
+      <description>很多人找电子书资源时，犯的第一个错误就是把“书多”当成“站好”。这完全是外行判断。真正值得长期收藏的电子书资源网站，不是把几千个标题往页面上一扔，而是能让你快速判断：这里有没有你要的书，这批资料是否值得花时间看，以及这个入口以后还值不值得反</description>
+    </item>
+  </channel>
+</rss>
