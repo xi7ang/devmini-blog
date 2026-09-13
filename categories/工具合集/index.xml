@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具合集 on DevMini 博客</title>
+    <link>https://devmini.space/categories/%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/</link>
+    <description>Recent content in 工具合集 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/categories/%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>远程工作平台对比：2026年Upwork/Toptal/Fiverr怎么选</title>
+      <link>https://devmini.space/posts/remote-work-platform-comparison-upwork-toptal-fiverr-2026/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/remote-work-platform-comparison-upwork-toptal-fiverr-2026/</guid>
+      <description>远程工作平台怎么选？Upwork、Toptal、Fiverr三个平台各有侧重 远程工作平台对比的关键在于搞清楚自己的定位。Upwork适合中长线项目型合作，Toptal专攻高端技术人才筛选，Fiverr则主打标准化服务按单交易。三个平台的项目</description>
+    </item>
+  </channel>
+</rss>

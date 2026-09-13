@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI写作 on DevMini 博客</title>
+    <link>https://devmini.space/tags/ai%E5%86%99%E4%BD%9C/</link>
+    <description>Recent content in AI写作 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/ai%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI写作工具横评：Claude/ChatGPT/Gemini/DeepSeek 哪个更适合你</title>
+      <link>https://devmini.space/posts/ai-writing-tools-comparison-2026/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-writing-tools-comparison-2026/</guid>
+      <description>核心回答 主流AI写作工具中，Claude在长文创作和逻辑连贯性上表现最优，适合深度内容生产者；ChatGPT生态最完善，插件和API支持最丰富，适合需要多工具串联的用户；DeepSeek性价比突出，中文理解能力强，适合预算有限且以中文写作为</description>
+    </item>
+  </channel>
+</rss>

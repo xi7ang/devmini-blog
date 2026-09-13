@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt教程 on DevMini 博客</title>
+    <link>https://devmini.space/tags/prompt%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in Prompt教程 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/prompt%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI提示词资源站汇总：Prompt合集/教程/社区完整指南</title>
+      <link>https://devmini.space/posts/ai-prompt-resource-sites-guide/</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-prompt-resource-sites-guide/</guid>
+      <description>用AI工具，最核心的差距往往不在模型本身，而在你会不会提问。一套好的提示词，可以让同一个AI输出质量提升几倍。这篇文章系统梳理目前最值得收藏的AI提示词资源站，帮你从找模板到学原理，建立完整的提示词能力体系。 AI提示词资源站有哪些：先搞清楚</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sci-Hub on DevMini 博客</title>
+    <link>https://devmini.space/tags/sci-hub/</link>
+    <description>Recent content in Sci-Hub on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/sci-hub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何免费获取国外学术论文：Sci-Hub替代方案与完整指南</title>
+      <link>https://devmini.space/posts/sci-hub-free-foreign-academic-papers-guide/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/sci-hub-free-foreign-academic-papers-guide/</guid>
+      <description>免费获取国外学术论文的主流方法 免费下载国外学术论文的核心途径有三种：Sci-Hub及其镜像站直接通过DOI获取全文、开放获取（OA）平台如PubMed Central和arXiv提供合法免费文献、机构代理与图书馆传递利用高校权限访问付费数据库</description>
+    </item>
+  </channel>
+</rss>
