@@ -49,6 +49,10 @@
 	{{- if not $server }}
 		{{ template "_internal/google_analytics.html" . }}
 	{{- end }}
+	{{/* 自建 Umami 统计（ECS stats.mibear.top）：换站点只改 data-website-id，别在别处另贴一份（会双报） */}}
+	{{- if not $server }}
+	<script defer src="https://stats.mibear.top/script.js" data-website-id="35306760-68c7-40cf-bae6-06ec4423d50d"></script>
+	{{- end }}
 </head>
 <body class="body">
 	<div class="container container--outer">
