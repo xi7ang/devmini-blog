@@ -1,11 +1,36 @@
 {{- if .IsPage }}
+{{- $rss := "index.xml" | absURL }}
 <section class="post__subscribe">
 	<p class="post__subscribe-title">📮 订阅 DevMini 博客更新</p>
 	<p class="post__subscribe-links">
-		<a href="{{ "index.xml" | absURL }}" rel="alternate" type="application/rss+xml" target="_blank">RSS 订阅</a>
+		<a class="post__subscribe-feed" href="{{ $rss }}" data-feed="feed:{{ $rss }}" data-plain="{{ $rss }}" rel="alternate" type="application/rss+xml">RSS 订阅</a>
 		<span class="post__subscribe-divider">·</span>
-		<a href="https://t.me/devmini_space" rel="noopener" target="_blank">Telegram 频道</a>
+		<a href="https://t.me/xi7ang" rel="noopener" target="_blank">Telegram 频道</a>
 	</p>
-	<p class="post__subscribe-tip">不想错过新文章？两个渠道任选，第一时间收到更新。</p>
+	<p class="post__subscribe-tip">RSS 会唤起本机已装的阅读器；没装阅读器则跳转 Feedly 在线订阅，不再直接显示 XML。</p>
 </section>
+<script>
+(function () {
+	var a = document.currentScript && document.currentScript.previousElementSibling
+		&& document.currentScript.previousElementSibling.querySelector('.post__subscribe-feed');
+	if (!a) return;
+	a.addEventListener('click', function (e) {
+		var feed = a.getAttribute('data-feed');
+		var plain = a.getAttribute('data-plain');
+		if (!feed) return;
+		e.preventDefault();
+		var left = false;
+		var leave = function () { left = true; };
+		window.addEventListener('pagehide', leave);
+		// 先尝试 feed: 协议唤起本地阅读器；1.2s 后页面还在前台 = 系统没有接管的阅读器，
+		// 回落到 Feedly 订阅页（真实订阅流程），不让用户看到裸 XML。
+		setTimeout(function () {
+			if (!left && document.visibilityState === 'visible') {
+				window.location.href = 'https://feedly.com/i/subscription/feed/' + encodeURIComponent(plain);
+			}
+		}, 1200);
+		window.location.href = feed;
+	});
+})();
+</script>
 {{- end }}
