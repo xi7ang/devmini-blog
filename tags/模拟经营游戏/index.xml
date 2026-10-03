@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模拟经营游戏 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E6%A8%A1%E6%8B%9F%E7%BB%8F%E8%90%A5%E6%B8%B8%E6%88%8F/</link>
+    <description>Recent content in 模拟经营游戏 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E6%A8%A1%E6%8B%9F%E7%BB%8F%E8%90%A5%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>药店模拟器上手：进货、摆货、定价，哪些坑其实可以躲开</title>
+      <link>https://devmini.space/posts/yaodian-monitiqi/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/yaodian-monitiqi/</guid>
+      <description>药店模拟器这游戏，说穿了就是个小店经营模拟：进货、上架、标价、收钱。让它和一堆同类拉开差距的是&amp;quot;找药&amp;quot;这一步——很多顾客不会自己拿，你得听他说症状，再从一堆长得差不多的盒子里把对的那个翻出来。手一慢，队就排到门口了。 最近</description>
+    </item>
+    <item>
+      <title>玩具店模拟器中文版：货架、定价、送货全得自己上手的小店经营游戏</title>
+      <link>https://devmini.space/posts/toy-shop-simulator/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/toy-shop-simulator/</guid>
+      <description>玩具店模拟器（Toy Shop Simulator）最近在模拟经营玩家圈子里被提得挺多。它做的其实是件挺笨但挺有效的事：把开店拆成一个个你必须亲手完成的动作——进货、贴价签、摆货架、收银、扫地、防小偷，一样都躲不掉。玩过超市模拟器那类作品的会很快上手</description>
+    </item>
+    <item>
+      <title>《玩具店模拟器》v1.0.0b6 中文版资源分享：从一间空店开始</title>
+      <link>https://devmini.space/posts/wanju-dian-moniti/</link>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/wanju-dian-moniti/</guid>
+      <description>先说结论：玩具店模拟器（v1.0.0b6 中文版）是个节奏很慢的开店游戏，中文界面和文本都齐了，硬件要求也不高，适合睡前来一小时的类型。它的核心不是让你一夜暴富，而是让你把一间空店慢慢填满——补货、摆货、定价、招呼人，循环很干净。这篇聊的是上</description>
+    </item>
+    <item>
+      <title>《沙龙模拟器》好玩吗？西部酒馆经营加藏尸拆车，Build 21688097 资源分享</title>
+      <link>https://devmini.space/posts/shalong-moniti-saloon-simulator/</link>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/shalong-moniti-saloon-simulator/</guid>
+      <description>沙龙模拟器（Saloon Simulator）就是把「经营酒馆」和「在西部活下去」捆在一起的那类游戏，2025 年 7 月正式发售，官方自带中文。它上手不算难，但绝不是只让你端盘子的轻松小品——酒要调、菜要做、货要补、客人要哄，账本背面还写着一些不</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生存游戏 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%94%9F%E5%AD%98%E6%B8%B8%E6%88%8F/</link>
+    <description>Recent content in 生存游戏 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%94%9F%E5%AD%98%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>七日杀 V3.2 稳定版之后，回归和入坑该从哪一步开始</title>
+      <link>https://devmini.space/posts/qirisha-v32-shengcun-lianji/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/qirisha-v32-shengcun-lianji/</guid>
+      <description>七日杀这游戏，不少人装了删、删了装，但 2026 年这波版本节奏值得再回来一次。V3.2 已转正为稳定版，V3.1 的养鸡系统也落地了，官方还在并行开发 V4.0 的强盗阵营。说白了，现在是近两年最完整的版本状态，比两年前那种「半成品加一堆模组硬撑」的阶段舒服太多</description>
+    </item>
+  </channel>
+</rss>

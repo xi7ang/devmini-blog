@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生存建造 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%94%9F%E5%AD%98%E5%BB%BA%E9%80%A0/</link>
+    <description>Recent content in 生存建造 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%94%9F%E5%AD%98%E5%BB%BA%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>矮人元祖联机怎么玩？机甲建造加开荒的四人分工思路</title>
+      <link>https://devmini.space/posts/first-dwarf-coop-guide/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/first-dwarf-coop-guide/</guid>
+      <description>矮人元祖（First Dwarf）这游戏，最近来问的人明显变多了。简单说结论：它是一款基地建设 + 机甲动作 + 剧情探索的动作生存 RPG，一个人能玩，两人以上联机开荒体验更好。如果你只是想找一款能和队友边建家边打怪的联机游戏，它值得放进候选清单。中</description>
+    </item>
+  </channel>
+</rss>
