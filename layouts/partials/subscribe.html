@@ -1,0 +1,11 @@
+{{- if .IsPage }}
+<section class="post__subscribe">
+	<p class="post__subscribe-title">📮 订阅 DevMini 博客更新</p>
+	<p class="post__subscribe-links">
+		<a href="{{ "index.xml" | absURL }}" rel="alternate" type="application/rss+xml" target="_blank">RSS 订阅</a>
+		<span class="post__subscribe-divider">·</span>
+		<a href="https://t.me/devmini_space" rel="noopener" target="_blank">Telegram 频道</a>
+	</p>
+	<p class="post__subscribe-tip">不想错过新文章？两个渠道任选，第一时间收到更新。</p>
+</section>
+{{- end }}

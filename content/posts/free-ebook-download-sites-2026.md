@@ -70,3 +70,9 @@ Kindle原生支持AZW3格式，EPUB需通过Calibre转换后导入。推荐使�
 - [书籍资料导航 · 入口汇总](https://pan.devmini.space/book/)
 - [AI知识资源站 · 提示词与教程](https://pan.devmini.space/AIknowledge/)
 - [工具资源导航 · 效率软件合集](https://pan.devmini.space/tools/)
+
+## 相关阅读
+
+- [国内外剧集免费在线看网站汇总：2026版高清追剧指南](/posts/free-drama-streaming-sites-2026/)
+- [Kindle替代方案：2026年免费读书App推荐](/posts/kindle-alternative-free-reading-apps-2026/)
+- [国学经典PDF下载：古籍免费阅读网站汇总](/posts/chinese-classic-pdf-download-guide/)
