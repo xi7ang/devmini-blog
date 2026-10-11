@@ -1,0 +1,169 @@
+{{- /* 首页资源导航弹窗：devmini 品牌 + 三站导航 + 今日关闭/关闭
+     仅首页渲染（.IsHome）。自带样式与脚本，不依赖 customCSS。
+     关闭语义：今日关闭 → localStorage 记住今天日期，当天不再弹；关闭 → 仅本次关闭。 */ -}}
+{{- if .IsHome -}}
+<div class="snm" id="snm" hidden>
+  <div class="snm__mask" data-snm-close></div>
+  <div class="snm__panel" role="dialog" aria-modal="true" aria-labelledby="snm-brand">
+    <button class="snm__x" type="button" aria-label="关闭" data-snm-close>✕</button>
+
+    <div class="snm__brand" id="snm-brand">
+      <span class="snm__brand-txt">devmini</span>
+      <span class="snm__brand-glow" aria-hidden="true"></span>
+    </div>
+    <p class="snm__sub">资源导航 · 三个站点，挑一个开始</p>
+
+    <div class="snm__sites">
+      <a class="snm__site snm__site--film" href="https://v.devmini.space" target="_blank" rel="noreferrer">
+        <span class="snm__ico" aria-hidden="true">🎬</span>
+        <span class="snm__body">
+          <span class="snm__name">影视资源站</span>
+          <span class="snm__desc">电影 · 剧集 · 动漫 · 综艺</span>
+          <span class="snm__host">v.devmini.space</span>
+        </span>
+        <span class="snm__go" aria-hidden="true">进入 →</span>
+      </a>
+
+      <a class="snm__site snm__site--game" href="https://pan.devmini.space" target="_blank" rel="noreferrer">
+        <span class="snm__ico" aria-hidden="true">🎮</span>
+        <span class="snm__body">
+          <span class="snm__name">游戏资源站</span>
+          <span class="snm__desc">单机 · 手游 · Switch · MOD</span>
+          <span class="snm__host">pan.devmini.space</span>
+        </span>
+        <span class="snm__go" aria-hidden="true">进入 →</span>
+      </a>
+
+      <a class="snm__site snm__site--study" href="https://xuexi.devmini.space" target="_blank" rel="noreferrer">
+        <span class="snm__ico" aria-hidden="true">📚</span>
+        <span class="snm__body">
+          <span class="snm__name">考试办公资源站</span>
+          <span class="snm__desc">真题试卷 · 中小学资料 · PPT 模板</span>
+          <span class="snm__host">xuexi.devmini.space</span>
+        </span>
+        <span class="snm__go" aria-hidden="true">进入 →</span>
+      </a>
+    </div>
+
+    <div class="snm__actions">
+      <button class="snm__btn snm__btn--today" type="button" data-snm-today>今日关闭</button>
+      <button class="snm__btn snm__btn--close" type="button" data-snm-close>关闭</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .snm { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 18px; }
+  .snm[hidden] { display: none; }
+  .snm__mask { position: absolute; inset: 0; background: rgba(8, 10, 16, 0.72); backdrop-filter: blur(4px); opacity: 0; transition: opacity .25s ease; }
+  .snm__panel {
+    position: relative; width: 100%; max-width: 560px; max-height: calc(100vh - 36px); overflow-y: auto;
+    background: linear-gradient(160deg, #16181f 0%, #0e1015 100%);
+    border: 1px solid rgba(255, 255, 255, .10); border-radius: 18px;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, .6), 0 0 0 1px rgba(255, 255, 255, .03) inset;
+    padding: 34px 26px 22px; text-align: center; color: #eef1f6;
+    transform: translateY(14px) scale(.97); opacity: 0; transition: transform .28s cubic-bezier(.2,.8,.25,1), opacity .28s ease;
+  }
+  .snm.snm--open .snm__mask { opacity: 1; }
+  .snm.snm--open .snm__panel { transform: none; opacity: 1; }
+
+  .snm__x {
+    position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 10px; cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, .12); background: rgba(255, 255, 255, .04); color: #aab2c0; font-size: 15px;
+    transition: all .2s;
+  }
+  .snm__x:hover { color: #fff; border-color: rgba(255, 255, 255, .3); background: rgba(255, 255, 255, .1); }
+
+  .snm__brand { position: relative; display: inline-block; margin: 2px auto 6px; }
+  .snm__brand-txt {
+    font-family: "Chakra Petch", ui-sans-serif, system-ui, sans-serif;
+    font-size: clamp(30px, 7vw, 40px); font-weight: 700; letter-spacing: .06em;
+    background: linear-gradient(135deg, #ffd479 0%, #ff9d4d 45%, #7dd3fc 100%);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+  }
+  .snm__brand-glow {
+    position: absolute; left: 50%; bottom: -6px; width: 74%; height: 12px; transform: translateX(-50%);
+    background: radial-gradient(ellipse at center, rgba(255, 165, 80, .55) 0%, transparent 70%); filter: blur(6px);
+  }
+  .snm__sub { margin: 10px 0 22px; font-size: 13px; color: #98a2b3; }
+
+  .snm__sites { display: flex; flex-direction: column; gap: 12px; }
+  .snm__site {
+    position: relative; display: flex; align-items: center; gap: 14px; padding: 15px 16px; border-radius: 14px;
+    text-decoration: none; color: inherit; overflow: hidden;
+    background: rgba(255, 255, 255, .035); border: 1px solid rgba(255, 255, 255, .09);
+    transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease, background .22s ease;
+  }
+  .snm__site::before {
+    content: ""; position: absolute; inset: 0; opacity: 0; transition: opacity .22s ease;
+    background: linear-gradient(110deg, var(--snm-a) 0%, transparent 55%);
+  }
+  .snm__site:hover { transform: translateY(-2px); border-color: var(--snm-a); box-shadow: 0 10px 26px rgba(0, 0, 0, .45), 0 0 22px var(--snm-glow); }
+  .snm__site:hover::before { opacity: .16; }
+  .snm__site--film  { --snm-a: #ff9d4d; --snm-glow: rgba(255, 157, 77, .35); }
+  .snm__site--game  { --snm-a: #a78bfa; --snm-glow: rgba(167, 139, 250, .35); }
+  .snm__site--study { --snm-a: #34d399; --snm-glow: rgba(52, 211, 153, .35); }
+
+  .snm__ico { flex: none; width: 46px; height: 46px; display: grid; place-items: center; font-size: 24px; border-radius: 12px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .1); }
+  .snm__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; text-align: left; }
+  .snm__name { font-size: 15.5px; font-weight: 700; color: #f4f7fb; }
+  .snm__desc { font-size: 12.5px; color: #98a2b3; }
+  .snm__host { font-size: 11px; color: var(--snm-a); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; opacity: .9; }
+  .snm__go { flex: none; font-size: 12.5px; font-weight: 700; color: var(--snm-a); white-space: nowrap; }
+
+  .snm__actions { display: flex; gap: 10px; justify-content: center; margin-top: 22px; }
+  .snm__btn { cursor: pointer; border-radius: 100px; font-size: 13.5px; font-weight: 600; padding: 10px 22px; transition: all .2s; }
+  .snm__btn--today { border: 1px solid rgba(255, 255, 255, .16); background: transparent; color: #c7ced9; }
+  .snm__btn--today:hover { color: #fff; border-color: rgba(255, 255, 255, .4); background: rgba(255, 255, 255, .06); }
+  .snm__btn--close { border: 1px solid transparent; background: linear-gradient(135deg, #ffb457, #ff8a3d); color: #241400; }
+  .snm__btn--close:hover { box-shadow: 0 0 20px rgba(255, 150, 70, .5); transform: translateY(-1px); }
+
+  @media (max-width: 480px) {
+    .snm__panel { padding: 28px 18px 18px; border-radius: 16px; }
+    .snm__site { padding: 13px 13px; gap: 11px; }
+    .snm__ico { width: 40px; height: 40px; font-size: 21px; }
+    .snm__actions { flex-direction: column-reverse; }
+    .snm__btn { width: 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .snm__mask, .snm__panel, .snm__site, .snm__btn { transition: none; }
+  }
+</style>
+
+<script>
+  (function () {
+    var KEY = 'devmini_nav_dismissed_date';
+    var el = document.getElementById('snm');
+    if (!el) return;
+    var today = new Date();
+    var stamp = today.getFullYear() + '-' + String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
+
+    // 今日已关闭过 → 本次访问不弹
+    try { if (localStorage.getItem(KEY) === stamp) return; } catch (e) {}
+
+    el.hidden = false;
+    requestAnimationFrame(function () { el.classList.add('snm--open'); });
+    document.documentElement.style.overflow = 'hidden';
+
+    function close() {
+      el.classList.remove('snm--open');
+      document.documentElement.style.overflow = '';
+      setTimeout(function () { el.hidden = true; }, 260);
+    }
+    function closeToday() {
+      try { localStorage.setItem(KEY, stamp); } catch (e) {}
+      close();
+    }
+
+    el.addEventListener('click', function (ev) {
+      var t = ev.target;
+      if (!t || !t.closest) return;
+      if (t.closest('[data-snm-today]')) { closeToday(); return; }
+      if (t.closest('[data-snm-close]')) { close(); }
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && !el.hidden) close();
+    });
+  })();
+</script>
+{{- end -}}
