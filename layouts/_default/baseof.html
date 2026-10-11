@@ -71,7 +71,7 @@
 		</div>
 		{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
 	</div>
-{{- if .IsHome }}{{ partial "site-nav-modal.html" . }}{{ end }}
+{{ partial "site-nav-modal.html" . }}
 <script async defer src="{{ "js/menu.js" | relURL }}"></script>
 {{ range .Site.Params.customJS -}}
 <script src="{{ . | relURL }}"></script>

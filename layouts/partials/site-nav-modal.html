@@ -1,7 +1,6 @@
-{{- /* 首页资源导航弹窗：devmini 品牌 + 三站导航 + 今日关闭/关闭
-     仅首页渲染（.IsHome）。自带样式与脚本，不依赖 customCSS。
+{{- /* 全站资源导航弹窗：devmini 品牌 + 三站导航 + 今日关闭/关闭
+     所有页面渲染（baseof 里无条件下挂载）。自带样式与脚本，不依赖 customCSS。
      关闭语义：今日关闭 → localStorage 记住今天日期，当天不再弹；关闭 → 仅本次关闭。 */ -}}
-{{- if .IsHome -}}
 <div class="snm" id="snm" hidden>
   <div class="snm__mask" data-snm-close></div>
   <div class="snm__panel" role="dialog" aria-modal="true" aria-labelledby="snm-brand">
@@ -166,4 +165,3 @@
     });
   })();
 </script>
-{{- end -}}
