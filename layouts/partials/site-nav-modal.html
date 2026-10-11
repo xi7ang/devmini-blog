@@ -1,6 +1,7 @@
 {{- /* 全站资源导航弹窗：devmini 品牌 + 三站导航 + 今日关闭/关闭
      所有页面渲染（baseof 里无条件下挂载）。自带样式与脚本，不依赖 customCSS。
-     关闭语义：今日关闭 → localStorage 记住今天日期，当天不再弹；关闭 → 仅本次关闭。 */ -}}
+     关闭语义：今日关闭 → localStorage 记住今天日期，当天不再弹；
+               关闭 → sessionStorage，本次浏览会话内不再弹，关掉标签页重开才恢复。 */ -}}
 <div class="snm" id="snm" hidden>
   <div class="snm__mask" data-snm-close></div>
   <div class="snm__panel" role="dialog" aria-modal="true" aria-labelledby="snm-brand">
@@ -132,19 +133,25 @@
 <script>
   (function () {
     var KEY = 'devmini_nav_dismissed_date';
+    var SESSION_KEY = 'devmini_nav_dismissed_session';
     var el = document.getElementById('snm');
     if (!el) return;
     var today = new Date();
     var stamp = today.getFullYear() + '-' + String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
 
-    // 今日已关闭过 → 本次访问不弹
-    try { if (localStorage.getItem(KEY) === stamp) return; } catch (e) {}
+    // 今日已关闭（跨会话、按天）或本次会话已关闭过 → 不弹
+    try {
+      if (localStorage.getItem(KEY) === stamp) return;
+      if (sessionStorage.getItem(SESSION_KEY)) return;
+    } catch (e) {}
 
     el.hidden = false;
     requestAnimationFrame(function () { el.classList.add('snm--open'); });
     document.documentElement.style.overflow = 'hidden';
 
     function close() {
+      // 「关闭」= 本次浏览会话内不再弹（sessionStorage）；关标签页重开才恢复
+      try { sessionStorage.setItem(SESSION_KEY, '1'); } catch (e) {}
       el.classList.remove('snm--open');
       document.documentElement.style.overflow = '';
       setTimeout(function () { el.hidden = true; }, 260);
