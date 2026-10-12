@@ -53,21 +53,21 @@ hasCJKLanguage = true
   weight = 1
 
 [[menu.main]]
-  identifier = "book"
-  name = "书籍资料"
-  url = "https://pan.devmini.space/book/"
+  identifier = "film"
+  name = "免费影视"
+  url = "https://v.devmini.space/"
   weight = 2
 
 [[menu.main]]
-  identifier = "ai"
-  name = "AI知识"
-  url = "https://pan.devmini.space/AIknowledge/"
+  identifier = "game"
+  name = "精品游戏"
+  url = "https://pan.devmini.space/"
   weight = 3
 
 [[menu.main]]
-  identifier = "tools"
-  name = "工具资源"
-  url = "https://pan.devmini.space/tools/"
+  identifier = "study"
+  name = "考试办公"
+  url = "https://xuexi.devmini.space/"
   weight = 4
 
 [[menu.main]]
