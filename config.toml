@@ -20,7 +20,7 @@ hasCJKLanguage = true
   bio = "Just start. Done is better than perfect."
 
 [Params]
-  description = "DevMini 博客：分享免费资源网站、电子书资料、AI学习资源与高效工具；自建资源站 pan.devmini.space（书籍 / AI知识 / 工具）与 xuexi.devmini.space（考试真题 / 中小学资料 / 办公素材）。"
+  description = "DevMini 博客：自建三个免费资源站——免费影视 v.devmini.space（电影/剧集/动漫/综艺）、精品游戏 pan.devmini.space（单机/安卓/怀旧经典）、考试办公 xuexi.devmini.space（考试真题/中小学资料/办公素材）。网盘直链、提取码自动带，点开就能转存。"
   opengraph = true
   twitter_cards = true
   readmore = true
