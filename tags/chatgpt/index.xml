@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ChatGPT on DevMini 博客</title>
+    <link>https://devmini.space/tags/chatgpt/</link>
+    <description>Recent content in ChatGPT on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>提示词工程入门：如何写好AI指令（2026完整指南）</title>
+      <link>https://devmini.space/posts/prompt-engineering-beginner-guide/</link>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/prompt-engineering-beginner-guide/</guid>
+      <description>什么是提示词工程？一句话讲清楚 提示词工程（Prompt Engineering）是指通过精心设计输入给AI模型的文字指令，让AI输出更准确、更符合预期的结果。简单来说，提示词工程就是学会怎么跟AI说话，让它听懂你要什么。不管你是用ChatGP</description>
+    </item>
+    <item>
+      <title>AI写作工具哪个适合你：场景对比选择指南</title>
+      <link>https://devmini.space/posts/ai-writing-tools-scenario-guide-2026/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-writing-tools-scenario-guide-2026/</guid>
+      <description>AI写作工具怎么选：按场景匹配最合适的那一个 选AI写作工具，不要只看排行榜。Claude擅长长文和逻辑，ChatGPT插件生态丰富，DeepSeek中文性价比高，Gemini多模态能力强——关键是你的使用场景。写学术论文选Claude，做营</description>
+    </item>
+    <item>
+      <title>AI写作工具横评：Claude/ChatGPT/Gemini/DeepSeek深度对比</title>
+      <link>https://devmini.space/posts/ai-writing-tools-comparison-deep-2026/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-writing-tools-comparison-deep-2026/</guid>
+      <description>核心回答 目前主流AI写作工具中，Claude在长文本处理与结构化写作上优势明显，ChatGPT综合能力强、插件生态丰富，Gemini长上下文窗口适合超长文档处理，DeepSeek则在中文语境下性价比突出。四大平台各有侧重，选对工具取决于你的</description>
+    </item>
+    <item>
+      <title>AI写作工具横评：Claude/ChatGPT/Gemini/DeepSeek 哪个更适合你</title>
+      <link>https://devmini.space/posts/ai-writing-tools-comparison-2026/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/ai-writing-tools-comparison-2026/</guid>
+      <description>核心回答 主流AI写作工具中，Claude在长文创作和逻辑连贯性上表现最优，适合深度内容生产者；ChatGPT生态最完善，插件和API支持最丰富，适合需要多工具串联的用户；DeepSeek性价比突出，中文理解能力强，适合预算有限且以中文写作为</description>
+    </item>
+  </channel>
+</rss>
