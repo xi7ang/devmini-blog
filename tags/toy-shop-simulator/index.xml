@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toy Shop Simulator on DevMini 博客</title>
+    <link>https://devmini.space/tags/toy-shop-simulator/</link>
+    <description>Recent content in Toy Shop Simulator on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/toy-shop-simulator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>玩具店模拟器中文版：货架、定价、送货全得自己上手的小店经营游戏</title>
+      <link>https://devmini.space/posts/toy-shop-simulator/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/toy-shop-simulator/</guid>
+      <description>玩具店模拟器（Toy Shop Simulator）最近在模拟经营玩家圈子里被提得挺多。它做的其实是件挺笨但挺有效的事：把开店拆成一个个你必须亲手完成的动作——进货、贴价签、摆货架、收银、扫地、防小偷，一样都躲不掉。玩过超市模拟器那类作品的会很快上手</description>
+    </item>
+  </channel>
+</rss>
