@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教育知识 on DevMini 博客</title>
+    <link>https://devmini.space/categories/%E6%95%99%E8%82%B2%E7%9F%A5%E8%AF%86/</link>
+    <description>Recent content in 教育知识 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/categories/%E6%95%99%E8%82%B2%E7%9F%A5%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>少儿编程学习网站推荐：Scratch/Python入门资源完整指南</title>
+      <link>https://devmini.space/posts/kids-coding-learning-sites-2026/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/kids-coding-learning-sites-2026/</guid>
+      <description>少儿编程学什么：先搞清现状再选平台 少儿编程教育在2020年后进入爆发期，核心路径分为两条：图形化编程（适合6-10岁，以Scratch为代表）和代码编程（适合10岁以上，以Python为代表）。图形化编程用拖拽积木块代替代码语法，降低入门门</description>
+    </item>
+    <item>
+      <title>少儿编程学习网站推荐：Scratch/Python入门资源指南</title>
+      <link>https://devmini.space/posts/child-programming-websites-scratch-python-guide/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/child-programming-websites-scratch-python-guide/</guid>
+      <description>核心回答 少儿编程入门推荐两条学习路径：6-10岁从 Scratch 图形化编程 开始，10岁以上可以开始接触 Python 文本编程。Scratch 方面首推 Scratch 官方社区（scratch.mit.edu）和 Code.org 的入门课程；Python 入门则推荐菜鸟教程、Codecademy 免费</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNKI on DevMini 博客</title>
+    <link>https://devmini.space/tags/cnki/</link>
+    <description>Recent content in CNKI on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/cnki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学术论文资源站推荐：CNKI/万方免费获取与替代方案大全</title>
+      <link>https://devmini.space/posts/academic-paper-resource-sites-guide/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/academic-paper-resource-sites-guide/</guid>
+      <description>学术论文获取难在哪里：先搞清楚游戏规则 CNKI（中国知网）是国内学术论文检索量最大的平台，收录期刊论文、学位论文、会议论文超过6000万篇，但它本质上是商业数据库，学生和科研人员直接访问需要付费或通过机构账号。万方数据和维普与CNKI类似，</description>
+    </item>
+  </channel>
+</rss>
