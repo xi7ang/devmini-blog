@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EdX on DevMini 博客</title>
+    <link>https://devmini.space/tags/edx/</link>
+    <description>Recent content in EdX on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/edx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursera/edX免费旁听方法与证书攻略：如何不花钱蹭满名校课程</title>
+      <link>https://devmini.space/posts/coursera-edx-free-audit-guide/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/coursera-edx-free-audit-guide/</guid>
+      <description>Coursera/edX免费旁听方法与证书攻略：如何不花钱蹭满名校课程 Coursera和edX是全球最具影响力的两大MOOC平台，分别由斯坦福大学和哈佛大学联合创办，汇聚了来自耶鲁、MIT、清华、北大等数百所顶尖高校的优质课程。然而平台上大</description>
+    </item>
+  </channel>
+</rss>

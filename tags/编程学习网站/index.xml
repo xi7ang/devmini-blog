@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程学习网站 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/</link>
+    <description>Recent content in 编程学习网站 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>少儿编程学习网站推荐：Scratch/Python入门资源完整指南</title>
+      <link>https://devmini.space/posts/kids-coding-learning-sites-2026/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/kids-coding-learning-sites-2026/</guid>
+      <description>少儿编程学什么：先搞清现状再选平台 少儿编程教育在2020年后进入爆发期，核心路径分为两条：图形化编程（适合6-10岁，以Scratch为代表）和代码编程（适合10岁以上，以Python为代表）。图形化编程用拖拽积木块代替代码语法，降低入门门</description>
+    </item>
+  </channel>
+</rss>
