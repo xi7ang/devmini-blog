@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电脑游戏 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%94%B5%E8%84%91%E6%B8%B8%E6%88%8F/</link>
+    <description>Recent content in 电脑游戏 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%94%B5%E8%84%91%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>药店模拟器上手：进货、摆货、定价，哪些坑其实可以躲开</title>
+      <link>https://devmini.space/posts/yaodian-monitiqi/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/yaodian-monitiqi/</guid>
+      <description>药店模拟器这游戏，说穿了就是个小店经营模拟：进货、上架、标价、收钱。让它和一堆同类拉开差距的是&amp;quot;找药&amp;quot;这一步——很多顾客不会自己拿，你得听他说症状，再从一堆长得差不多的盒子里把对的那个翻出来。手一慢，队就排到门口了。 最近</description>
+    </item>
+  </channel>
+</rss>

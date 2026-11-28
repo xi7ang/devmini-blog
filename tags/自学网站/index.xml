@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自学网站 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E8%87%AA%E5%AD%A6%E7%BD%91%E7%AB%99/</link>
+    <description>Recent content in 自学网站 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E8%87%AA%E5%AD%A6%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B站课程合集推荐：各学科系统学习路径大全（2026完整版）</title>
+      <link>https://devmini.space/posts/bilibili-course-system-learning-guide/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/bilibili-course-system-learning-guide/</guid>
+      <description>核心回答 B站课程是目前国内最完整的免费自学资源库之一，涵盖编程开发、设计创意、商业管理、语言学习、心理学等主流学科，系统学习路径清晰、UP主质量稳定、内容更新持续。对于想利用碎片时间系统提升技能的学习者，B站课程推荐作为入门入口性价比最高，</description>
+    </item>
+  </channel>
+</rss>

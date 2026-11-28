@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>知识清单 on DevMini 博客</title>
+    <link>https://devmini.space/tags/%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95/</link>
+    <description>Recent content in 知识清单 on DevMini 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://devmini.space/tags/%E7%9F%A5%E8%AF%86%E6%B8%85%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>西师版二年级数学知识清单：一张纸把全册重点串起来</title>
+      <link>https://devmini.space/posts/xishi-grade2-math-checklist/</link>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://devmini.space/posts/xishi-grade2-math-checklist/</guid>
+      <description>二年级数学知识清单，说白了就是把一学期散在八个单元里的考点压成几页纸。西师版二年级数学的难点不在深，在散——孩子学完最后一单元，前面几单元的重点基本忘得差不多。这份【西师】二年级数学知识清单按教材顺序把全册核心知识点串了一遍，标了必会项和易</description>
+    </item>
+  </channel>
+</rss>
